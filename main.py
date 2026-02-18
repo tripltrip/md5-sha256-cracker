@@ -10,9 +10,6 @@ def clear():
     else:
         os.system('clear')
 
-def initialize():
-    print("This program uses the rockyou wordlist to decrypt MD5 and SHA-256 hashes.")
-
 def crack_hash(the_hash):
     print("Cracking...")
     the_hash = the_hash.lower()
